@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login page</title>
+    <title>Francis Login page</title>
     <link rel="stylesheet" href="css/index.css"/>
   </head>
   <body>
@@ -12,16 +12,17 @@
       <div>
         <img src="images/icon.png" />
       </div>
-      <div>
-        <input type="text" id="username" placeholder="USERNAME" class="icon"/>
-      </div>
-      <div>
-        <input type="password" id="password" placeholder="PASSWORD" class="icon-2"/>
-      </div>
-      <div class="login">
-          <button class="icon-3">LOGIN</button>
-          <label for="icon-3">Forgot Password?</label>
-      </div>
+      <form action="">
+        <div class="wrap">
+          <label for="uname">USERNAME</label><br>
+          <input type="text" id="uname" class="icon" required/><br>
+          <label for="pword">PASSWORD</label><br>
+          <input type="password" id="pword" class="icon" required/><br>
+          <input type="submit" value="LOGIN">
+          <label id="btn">Forgot Password?</label>
+        </div>
+      </form>
+     
     </div>
   </body>
 </html>

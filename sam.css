@@ -1,0 +1,10 @@
+position: absolute; /* Turns the the text box to absolute from static (allows free control of placement) */
+width: 100%;
+max-width: 420px;
+top: 30%;
+left: 0px;
+right: 0px;
+height: auto;
+font-size: 20pt;
+margin: 0px auto;
+padding: 15px;
